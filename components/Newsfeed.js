@@ -1,25 +1,12 @@
 import Link from 'next/link'
 import Boxes from './Boxes'
-import styled from 'styled-components'
-
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  
-`
-
-const Footer = styled.a`
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  padding: 7px;
-`
+import { Header, Footer } from '../styles/styles'
 
 export default () => (
     <div>
-      <Container>
+      <Header>
         Welcome to your curated news
-      </Container>
+      </Header>
       
       <div>
       </div>

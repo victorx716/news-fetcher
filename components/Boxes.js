@@ -1,44 +1,38 @@
-import React from 'react';
-import styled from 'styled-components'
+import React, { Component} from 'react';
+import { Box, Container} from '../styles/styles'
 
-const Box = styled.button`
-  border: 1px solid white;
-  color: white;
-  background: #f4511e;
-  width: 15em;
-  height: 15em;
-  opacity: 0.8;
-  :hover {
-    opacity: 1;
+
+class Boxes extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      topLeft: '',
+      topRight: '',
+      bottomLeft: '',
+      bottomRight: '',
+    }
   }
-  margin: 2px;
-`
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`
-
-function Boxes() {
-  return (
-    <div>
-      <Container id="container">
-        Your Boxes
+  render() {
+    return (
+      <div>
+        <Container id="container">
+          Your Boxes
+          
+          <div>
+            <Box>News 1</Box>
+            <Box>News 2</Box>
+          </div>
+          
+          <div>
+            <Box>News 3</Box>
+            <Box>News 4</Box>                          
+          </div>
         
-        <div>
-          <Box>News 1</Box>
-          <Box>News 2</Box>
-        </div>
-        
-        <div>
-          <Box>News 3</Box>
-          <Box>News 4</Box>                          
-        </div>
-      
-      </Container>
-    </div>
-  );
+        </Container>
+      </div>
+    );
+  }
 }
 
 export default Boxes
