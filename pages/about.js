@@ -1,21 +1,22 @@
 import Link from 'next/link'
 
-function About() {
-  return (
+export default () => (
     <>
-      <ul>
-        <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-        </li>
-        <li>About Us</li>
-      </ul>
+      <div>
+        <Link href="/">
+          <a>Return home</a>
+        </Link>
+        <style global jsx>{`
+          body {
+              background: white;
+              font-family: Calibri;
+          }
 
-      <h1>About</h1>
-      <p>We are a cool news site</p>
+          a {
+              text-decoration: none;
+              hover: bold;
+          }
+    `}</style>        
+      </div>
     </>
   )
-}
-
-export default About

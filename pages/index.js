@@ -1,20 +1,18 @@
-import Link from 'next/link'
+require('dotenv').config()
+import Newsfeed from '../components/Newsfeed';
 
-function Home() {
-  return (
-    <>
-      <ul>
-        <li>Home</li>
-        <li>
-          <Link href="/about">
-            <a>About Us</a>
-          </Link>
-        </li>
-      </ul>
+export default () => (
+  <div>
+    <Newsfeed/>
+    <style global jsx>{`
+    body {
+        background: rgba(255, 255, 255, 0.5);
+        font-family: Calibri;
+    }
 
-      <h1>News Fetcher</h1>
-    </>
-  )
-}
-
-export default Home
+    a {
+        text-decoration: none;
+    }
+    `}</style>
+  </div>
+)
