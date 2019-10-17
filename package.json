@@ -1,0 +1,27 @@
+{
+  "name": "news-fetcher",
+  "version": "1.0.0",
+  "description": "Fetching your curated news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorx716/news-fetcher.git"
+  },
+  "keywords": [
+    "news"
+  ],
+  "author": "Vic Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorx716/news-fetcher/issues"
+  },
+  "homepage": "https://github.com/victorx716/news-fetcher#readme",
+  "dependencies": {
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
