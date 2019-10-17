@@ -4,7 +4,9 @@
   "description": "Fetching your curated news",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/victorx716/news-fetcher#readme",
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
