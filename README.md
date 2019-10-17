@@ -1,13 +1,7 @@
-# news-fetcher
+# News Fetcher
 Fetches news from your favorite sites!
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -126,7 +120,6 @@ Vic Liu - victorliu716@gmail.com
 Project Link: [https://github.com/victorx716/news-fetcher]
 
 
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
@@ -134,8 +127,6 @@ Project Link: [https://github.com/victorx716/news-fetcher]
 
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/victorjliu/
+
