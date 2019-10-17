@@ -1,16 +1,19 @@
 import styled from 'styled-components';
 
 export const Box = styled.button`
-  border: 1px solid white;
+  border: 2px solid white;
   color: white;
   background: #f4511e;
-  width: 15em;
-  height: 15em;
+  width: 200px;
+  height: 200px;
   opacity: 0.8;
   :hover {
     opacity: 1;
   }
   margin: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;  
 `
 
 export const Container = styled.div`
