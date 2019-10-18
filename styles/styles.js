@@ -14,6 +14,7 @@ export const Box = styled.button`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;  
+  font-size: 15px;
 `
 
 export const Container = styled.div`
