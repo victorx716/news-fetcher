@@ -47,7 +47,7 @@ Fetches the latest cryptocurrency and blockchain-related headlines.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Cryptocurrency News Fetcher][https://imgur.com/a/LXs5y3k]](https://imgur.com/a/LXs5y3k)
+![Image](https://i.imgur.com/8NQtOtt.png)
 
 ### Built With
 
