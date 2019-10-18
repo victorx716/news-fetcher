@@ -5,7 +5,7 @@ import { Header, Footer } from '../styles/styles'
 export default () => (
     <div>
       <Header>
-        Welcome to your curated news
+        Welcome to your curated news 
       </Header>
       
       <div>
@@ -13,7 +13,7 @@ export default () => (
       <Boxes/>
 
         <Link href="/about">
-          <Footer>About</Footer>
+          <Footer>Powered by CryptoControl</Footer>
         </Link>
     </div>
 )

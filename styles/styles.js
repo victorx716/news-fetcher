@@ -31,7 +31,7 @@ export const Header = styled.div`
 
 export const Footer = styled.a`
   position: absolute;
-  top: 0px;
+  bottom: 0px;
   left: 0px;
   padding: 7px;
 `

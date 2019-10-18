@@ -45,7 +45,7 @@ class Boxes extends Component {
 
   componentDidMount() {
     axios.get('https://cryptocontrol.io/api/v1/public/news?key=' + process.env.API_KEY)    
-      .then((res) => {             
+      .then((res) => {                  
         this.setState({
           topLeft: res.data[0].title,
           topRight: res.data[1].title,
@@ -59,7 +59,7 @@ class Boxes extends Component {
       })
   }
 
-  render() {
+  render() { 
     return (
       <div>
         <Container id="container">
