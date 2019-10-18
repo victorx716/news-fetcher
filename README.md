@@ -77,6 +77,8 @@ git clone https://github.com/victorx716/news-fetcher.git
 ```sh
 npm install
 ```
+3. Sign into https://cryptocontrol.io/en/ and receive your API key
+Add API key to .env file
 
 
 <!-- USAGE EXAMPLES -->
