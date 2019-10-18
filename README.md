@@ -79,7 +79,6 @@ npm install
 ```
 
 
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 

@@ -11,10 +11,10 @@ export const Box = styled.button`
     opacity: 1;
   }
   margin: 2px;
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   text-overflow: ellipsis;  
-  font-size: 15px;
+  font-size: 11px;
 `
 
 export const Container = styled.div`

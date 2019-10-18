@@ -2,7 +2,6 @@ import React, { Component} from 'react';
 import { Box, Container} from '../styles/styles'
 const axios = require('axios')
 
-// https://cryptocontrol.io/en/developers/apis
 class Boxes extends Component {
   constructor(props) {
     super(props);
@@ -22,31 +21,34 @@ class Boxes extends Component {
   
   handleTopLeft() {
     this.setState((state) => ({
-      topLeft: this.state.headlines[Math.floor(Math.random() * 100)].title
+      topLeft: this.state.headlines[Math.floor(Math.random() * this.state.headlines.length)].title
     }))
   }
 
   handleTopRight() {
     this.setState((state) => ({
-      topRight: this.state.headlines[Math.floor(Math.random() * 100)].title
+      topRight: this.state.headlines[Math.floor(Math.random() * this.state.headlines.length)].title
     }))
   }
 
   handleBottomLeft() {
     this.setState((state) => ({
-      bottomLeft: this.state.headlines[Math.floor(Math.random() * 100)].title
+      bottomLeft: this.state.headlines[Math.floor(Math.random() * this.state.headlines.length)].title
     }))
   }
 
   handleBottomRight() {
     this.setState((state) => ({
-      bottomRight: this.state.headlines[Math.floor(Math.random() * 100)].title
+      bottomRight: this.state.headlines[Math.floor(Math.random() * this.state.headlines.length)].title
     }))
   }
 
   componentDidMount() {
-    axios.get('https://jsonplaceholder.typicode.com/posts')
+    axios.get('https://cryptocontrol.io/api/v1/public/news?key=' + process.env.API_KEY)    
       .then((res) => {
+        // console.log(res.data[3].originalImageUrl)
+        // console.log(res.data[4].originalImageUrl)
+        // console.log(res.data[5].originalImageUrl)                
         this.setState({
           topLeft: res.data[0].title,
           topRight: res.data[1].title,
