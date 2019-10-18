@@ -45,10 +45,7 @@ class Boxes extends Component {
 
   componentDidMount() {
     axios.get('https://cryptocontrol.io/api/v1/public/news?key=' + process.env.API_KEY)    
-      .then((res) => {
-        // console.log(res.data[3].originalImageUrl)
-        // console.log(res.data[4].originalImageUrl)
-        // console.log(res.data[5].originalImageUrl)                
+      .then((res) => {             
         this.setState({
           topLeft: res.data[0].title,
           topRight: res.data[1].title,
