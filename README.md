@@ -1,5 +1,5 @@
 # News Fetcher
-Fetches news from your favorite sites!
+Fetches the latest cryptocurrency and blockchain-related headlines.
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -77,8 +77,11 @@ git clone https://github.com/victorx716/news-fetcher.git
 ```sh
 npm install
 ```
-3. Sign into https://cryptocontrol.io/en/ and receive your API key
+3. Get personal api key
+```sh
+Sign into https://cryptocontrol.io/en/ and receive your API key
 Add API key to .env file
+```
 
 
 <!-- USAGE EXAMPLES -->
