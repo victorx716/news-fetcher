@@ -125,7 +125,7 @@ Project Link: [https://github.com/victorx716/news-fetcher]
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Zeit] (https://github.com/zeit)
+* [Zeit](https://github.com/zeit)
 * [Open source community at Docker](https://www.docker.com/)
 
 
